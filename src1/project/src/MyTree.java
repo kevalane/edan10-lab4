@@ -10,11 +10,13 @@ import tree.MyNode;
  */
 public class MyTree {
   private MyNode root;
+  private int test;
 
   /**
    * Class constructor.
    */
   public MyTree() {
+      test = 3;
   }
 
   /**
@@ -23,6 +25,7 @@ public class MyTree {
    * @return Reference to the root node.
    */
   public MyNode getRoot() {
+    test++;
     return root;
   }
 
