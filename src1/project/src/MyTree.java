@@ -2,10 +2,13 @@ package tree;
 
 import tree.MyNode;
 
+import java.util.ArrayList;
+
 /**
  * This is a binary search tree. The tree holds integer valued nodes.
  *
- * @author Torbjorn Ekman
+ * @author Henrik
+ * @author Kevin
  * @see MyNode
  */
 public class MyTree {
